@@ -1,13 +1,7 @@
- passlistpak.txt 
-@@ -0,0 +1,740 @@
 786786
 Khan09khan
 Pakistan786
 123321
-p@s5word
-P@s5word
-password
-Passw@rd
 passw@rd
 Password
 P@ssw@rd
@@ -38,10 +32,6 @@ love786
 lover786
 Love123
 Love786
-!@#$%
-!@#$%^
-!@#$%^&
-!@#$%^&*
 000000
 00000000
 1111111
@@ -57,7 +47,6 @@ asdfgh
 asdfghjkl
 zxcvbn
 zxcvbnm
-@##$&_
 54321
 87654321
 7654321
