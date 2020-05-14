@@ -20,8 +20,6 @@ try:
 except ModuleNotFoundError:
     print '[!] Module >Mechanize< Not Found!\n    This module is only available in python 2.x :/\n    Please install mechanize (pip install mechanize) and run the program with python2'
     exit()
-
-time.sleep(0.5)
 #Dev:love_hacker
 ##### LOGO #####
 logo = """
@@ -42,6 +40,7 @@ logo = """
 \033[1;95m|________|    `.__.'    |_______/|____| |____||_____||____| |___|                                                                  
 \033[1;95m♡╰───•◈•───╯♡\033[1;96mZUBAIR Ahmad Hacker\033[1;95m♡╰───•◈•───╯♡"""
 
+time.sleep(0.5)
 user = raw_input('[?] Target Username/ID/Email >>> ')
 time.sleep(0.8)
 wrdlstFileName = raw_input('\n[?] Wordlist Directory >>> ')
