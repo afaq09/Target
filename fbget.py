@@ -23,7 +23,7 @@ except ModuleNotFoundError:
 
 #Dev:love_hacker
 ##### LOGO #####
-logo = """
+Print"""
 \033[1;96m╱╱╱╱╱╱╱╱╭╮
 \033[1;96m╱╱╱╱╱╱╱╱┃┃
 \033[1;96m╭╮╭╮╭┳━━┫┃╭━━┳━━┳╮╭┳━━╮
