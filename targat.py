@@ -20,33 +20,18 @@ try:
 except ModuleNotFoundError:
     print '[!] Module >Mechanize< Not Found!\n    This module is only available in python 2.x :/\n    Please install mechanize (pip install mechanize) and run the program with python2'
     exit()
-
-CorrectUsername = "Afaq0313khan"
-CorrectPassword = "Afaqkhan0313"
-
-loop = 'true'
-while (loop == 'true'):
-    username = raw_input("\033[1;91m🔐 \x1b[1;91mTool Username \x1b[1;91m»» \x1b[1;93m")
-    if (username == CorrectUsername):
-    	password = raw_input("\033[1;94m🔐 \x1b[1;91mTool Password \x1b[1;91m»» \x1b[1;92m")
-        if (password == CorrectPassword):
-            print "Logged in successfully as " + username #Dev:love_hacker
-	    time.sleep(2)
-            loop = 'false'
-        else:
-            print "\033[1;91mWrong Password"
-            os.system('xdg-open https://www.youtube.com/channel/UC9je9oH-o4qUsp7NkXn16yQ')
-    else:
-        print "\033[1;94mWrong Username"
-        os.system('xdg-open https://www.youtube.com/channel/UC9je9oH-o4qUsp7NkXn16yQ')
-
-def login():
-	os.system('clear')
-	try:
+Print"""
+\033[1;94m╱╱╱╱╱╱╱╱╭╮
+\033[1;96m╱╱╱╱╱╱╱╱┃┃
+\033[1;98m╭╮╭╮╭┳━━┫┃╭━━┳━━┳╮╭┳━━╮
+\033[1;96m┃╰╯╰╯┃┃━┫┃┃╭━┫╭╮┃╰╯┃┃━┫
+\033[1;92m╰╮╭╮╭┫┃━┫╰┫╰━┫╰╯┃┃┃┃┃━┫
+\033[1;16m╱╰╯╰╯╰━━┻━┻━━┻━━┻┻┻┻━━╯"""
+Print
 time.sleep(0.5)
-user = raw_input('[?] Target Username/ID/Email >>> ')
+user = raw_input('[?] \033[1;96m Target Username/ID/Email >>> ')
 time.sleep(0.8)
-wrdlstFileName = raw_input('\n[?] Wordlist Directory >>> ')
+wrdlstFileName = raw_input('\n[?] \033[1;96mEnter Your Wordlist Directory >>> ')
 try:
     wordlist = open(wrdlstFileName, 'r')
 except FileNotFoundError:
@@ -54,10 +39,17 @@ except FileNotFoundError:
     exit()
 
 time.sleep(0.8)
-print '\n\nCracking '+user+' Now...'
+print '\033[1;96m\n\nCracking '+user+' Now...'
 
 time.sleep(1)
-print '\n##############√SufyanAhmad TargetAttack√#############\n'
+print '
+\033[1;95m ________  _____  _____  ______        _       _____  _______      
+\033[1;95m|  __   _||_   _||_   _||_   _ \      / \     |_   _||_   __ \     
+\033[1;95m|_/  / /    | |    | |    | |_) |    / _ \      | |    | |__) |    
+\033[1;95m   .'.' _   | '    ' |    |  __'.   / ___ \     | |    |  __ /     
+\033[1;95m _/ /__/ |   \ \__/ /    _| |__) |_/ /   \ \_  _| |_  _| |  \ \_   
+\033[1;95m|________|    `.__.'    |_______/|____| |____||_____||____| |___|  
+                                                                   '
 for password in wordlist:
     if password == '' or password == ' ':
         pass
